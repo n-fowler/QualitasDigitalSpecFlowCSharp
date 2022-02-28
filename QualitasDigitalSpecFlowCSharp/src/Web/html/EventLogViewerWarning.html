@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="..\js\EventLogViewer.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="..\css\EventLogViewer.css"> 
+    <title>Event Log Viewer - Warning</title>
+</head>
+<body>
+<input hidden id="EventSource" value="Warning"/>
+<textarea id="EventLogDetails" class="center" rows="20" cols="50" readonly>
+Click an entry below to view its details...
+</textarea>
+<table id="EventLogTable">
+    <tr>
+        <th>Level</th>
+        <th>Date and Time</th>
+        <th>Source</th>
+        <th>Task Category</th>
+    </tr>
+</table>
+</body>
+</html>

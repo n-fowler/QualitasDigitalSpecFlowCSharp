@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BodyEight" xml:space="preserve">
+    <value>We believe we are.  Our solutions reduce future costs as a result of increasing headcounts, increase the value of your employees through training, we even provide direction and structure which increase productivity.</value>
+  </data>
+  <data name="BodyEleven" xml:space="preserve">
+    <value>We are able to send samples that show an understanding of technologies we use, or training courses we conduct.  In order to protect the Intellectual Property of our clients, we don’t share code or documentation from their projects.</value>
+  </data>
+  <data name="BodyFifteen" xml:space="preserve">
+    <value>Qualitas is latin for Quality.  We put quality in our name as it’s at the core of what we do.  We strive to provide efficient and high quality services that stand the test of time.</value>
+  </data>
+  <data name="BodyFive" xml:space="preserve">
+    <value>We start with a free consultation by phone where we talk about the problems facing your company.  We ask clarifying questions to frame the problem and determine whether or not we’re the right choice for you.  Depending on your needs we have one or more follow up meetings where we go into detail about our services, and sign a consulting contract.</value>
+  </data>
+  <data name="BodyFour" xml:space="preserve">
+    <value>The value of our services.  We have the know-how and experience to assess your business, ask the right questions, and build a custom tailored solution that works for you.</value>
+  </data>
+  <data name="BodyFourteen" xml:space="preserve">
+    <value>We have references available, once we’ve reached the final phase of contract negotiation.</value>
+  </data>
+  <data name="BodyNine" xml:space="preserve">
+    <value>Once services have been rendered they are non-refundable.  Regular check ins throughout the project ensure that our work meets your standards so that there are no surprises when the invoice arrives.</value>
+  </data>
+  <data name="BodyOne" xml:space="preserve">
+    <value>We provide Quality Automation solutions that scale with your business.  Whether you’re creating something from scratch, reworking an existing automation program, or adding to what you have, we work with you to create a customized plan and implement it throughout your business.</value>
+  </data>
+  <data name="BodySeven" xml:space="preserve">
+    <value>We pride ourselves on the speed with which we design and implement solutions.  In order to maintain the longevity of the solutions we provide, we work at a pace that avoids sacrificing quality or accuracy.</value>
+  </data>
+  <data name="BodySix" xml:space="preserve">
+    <value>The contract length is entirely dependent on your needs.  Whether you need a consultant for a couple weeks to add tests for a critical feature, or you need a corporate trainer for a year, we’re ready.</value>
+  </data>
+  <data name="BodyTen" xml:space="preserve">
+    <value>Our consulting agreement includes a defacto Non-Disclosure Agreement.  We value your intellectual property and privacy and protect it the same as our own.</value>
+  </data>
+  <data name="BodyThirteen" xml:space="preserve">
+    <value>Our consultants are experts with industry experience at companies both big and small.  We’ve worked with a variety of technology stacks and continued education is a requirement.  It’s not enough for us to be proficient at one set of technologies, we are continuously evolving what we know so that we remain able to offer the best solutions possible.</value>
+  </data>
+  <data name="BodyThree" xml:space="preserve">
+    <value>The two main reasons are time and experience.  It takes time to recruit and train a new employee and verifying they have the experience you need for your business is a constant challenge.  It takes months to recoup the initial recruitment costs.  We deliver value from day one.</value>
+  </data>
+  <data name="BodyTwelve" xml:space="preserve">
+    <value>We’re located just outside of Downtown Wilmington in North Carolina.  We use phone and video calls for meetings as needed.  We drive or fly to clients outside of Wilmington regularly to complete work.  We offer a 25% discount on our rates for fully telecommuted work in addition to the money saved on travel expenses.</value>
+  </data>
+  <data name="BodyTwo" xml:space="preserve">
+    <value>We specialize within the niche of Software Quality Automation.  We have some overlap with traditional Software Automation due to the similarities between disciplines.  We can also automate your workflows and free up time that your employees can use elsewhere.</value>
+  </data>
+  <data name="ContactUsLink" xml:space="preserve">
+    <value>https://www.qualitasdigital.com/contact-us</value>
+  </data>
+  <data name="FaqSubtitle" xml:space="preserve">
+    <value>You’ve got questions, we’ve got answers.</value>
+  </data>
+  <data name="FaqTitle" xml:space="preserve">
+    <value>Frequently Asked Questions</value>
+  </data>
+  <data name="TitleEight" xml:space="preserve">
+    <value>ARE YOU WORTH THE MONEY?</value>
+  </data>
+  <data name="TitleEleven" xml:space="preserve">
+    <value>CAN YOU SEND US SAMPLES OF YOUR WORK?</value>
+  </data>
+  <data name="TitleFifteen" xml:space="preserve">
+    <value>WHAT IS THE ORIGIN OF QUALITAS DIGITAL’S NAME?</value>
+  </data>
+  <data name="TitleFive" xml:space="preserve">
+    <value>WHAT DOES THE CONSULTING PROCESS LOOK LIKE?</value>
+  </data>
+  <data name="TitleFour" xml:space="preserve">
+    <value>WHAT MAKES YOUR BUSINESS SPECIAL?</value>
+  </data>
+  <data name="TitleFourteen" xml:space="preserve">
+    <value>DO YOU HAVE REFERENCES?</value>
+  </data>
+  <data name="TitleNine" xml:space="preserve">
+    <value>WHAT IS YOUR REFUND POLICY?</value>
+  </data>
+  <data name="TitleOne" xml:space="preserve">
+    <value>WHAT DOES QUALITAS DIGITAL DO?</value>
+  </data>
+  <data name="TitleSeven" xml:space="preserve">
+    <value>CAN YOU WORK ANY FASTER?</value>
+  </data>
+  <data name="TitleSix" xml:space="preserve">
+    <value>HOW LONG IS A TYPICAL CONTRACT?</value>
+  </data>
+  <data name="TitleTen" xml:space="preserve">
+    <value>WILL YOU SIGN A NON-DISCLOSURE AGREEMENT?</value>
+  </data>
+  <data name="TitleThirteen" xml:space="preserve">
+    <value>WHAT ARE YOUR QUALIFICATIONS?</value>
+  </data>
+  <data name="TitleThree" xml:space="preserve">
+    <value>WHY SHOULD WE HIRE A CONSULTANT INSTEAD OF DOING IT ALL OURSELVES?</value>
+  </data>
+  <data name="TitleTwelve" xml:space="preserve">
+    <value>WHERE ARE YOU LOCATED, AND HOW DO YOU WORK WITH CLIENTS OUTSIDE OF YOUR LOCAL AREA?</value>
+  </data>
+  <data name="TitleTwo" xml:space="preserve">
+    <value>WHAT INDUSTRIES DO YOU SPECIALIZE IN?</value>
+  </data>
+</root>

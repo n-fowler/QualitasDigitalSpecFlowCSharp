@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="..\js\TestResultReport.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="..\css\TestResultReport.css">
+</head>
+<body>
+<div id="CompanyLogoImageWrapper">
+    <img id="CompanyLogoImage" alt="The Company Logo Image" class="center" src="https://images.squarespace-cdn.com/content/5dcc96767c939351951d2987/1574107155507-DVVUJL7WPK41D0EHZV1J/QualitasDigitalHiqhQuality2.png?format=1500w&content-type=image%2Fpng" />
+</div>
+<h2 id="header" style="text-align: center">Test Result: Placeholder Test - Run Wednesday December 18th, 2019 at 3:55pm EST</h2>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+</div>
+
+<div id="TestFailureImageWrapper">
+    <img id="TestFailureImage" alt="The Test Failure Image" class="center" src="../../FailureScreenshot.png" />
+</div>
+    
+<table id="EventLogsTable">
+    <tr id="EventLogHeaderRow">
+        <th>Event Source</th>
+        <th>Count</th>
+    </tr>
+    <tr id="EventLogCriticalRow">
+        <td>Critical</td>
+        <td><a href="#" onClick="PopupCenter('EventLogViewerCritical.html', 'Event Log Viewer - Critical', window.screen.width*.75, window.screen.height*.75);">View</a></td>
+    </tr>
+    <tr id="EventLogErrorRow">
+        <td>Error</td>
+        <td><a href="#" onClick="PopupCenter('EventLogViewerError.html', 'Event Log Viewer - Error', window.screen.width*.75, window.screen.height*.75);">View</a></td>
+    </tr>
+    <tr id="EventLogWarningRow">
+        <td>Warning</td>
+        <td><a href="#" onClick="PopupCenter('EventLogViewerWarning.html', 'Event Log Viewer - Warning', window.screen.width*.75, window.screen.height*.75);">View</a></td>
+    </tr>
+    <tr id="EventLogInformationRow">
+        <td>Information</td>
+        <td><a href="#" onClick="PopupCenter('EventLogViewerInformation.html', 'Event Log Viewer - Information', window.screen.width*.75, window.screen.height*.75);">View</a></td>
+    </tr>
+    <tr id="EventLogTestRow">
+        <td>Test</td>
+        <td><a href="#" onClick="PopupCenter('EventLogViewerTest.html', 'Event Log Viewer - Test', window.screen.width*.75, window.screen.height*.75);">View</a></td>
+    </tr>
+</table>
+<table id="TestStepsTable">
+    <tr>
+        <th>Step #</th>
+        <th>Step Description</th>
+        <th>Step Result</th>
+        <th>Step Status</th>
+    </tr>
+</table>
+</body>
+</html>

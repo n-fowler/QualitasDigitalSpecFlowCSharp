@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="HighlightedReviewAuthor" xml:space="preserve">
+    <value>— Cy James</value>
+  </data>
+  <data name="HighlightedReviewContent" xml:space="preserve">
+    <value>Qualitas Digital created an automation program for our mobile game. We needed something fast so we could develop it with confidence and they really delivered. I was impressed with the attention to detail and how they met with us every step of the way. I can’t recommend them enough!</value>
+  </data>
+  <data name="MidPageTitle" xml:space="preserve">
+    <value>Others have had this to say…</value>
+  </data>
+  <data name="ReviewFiveAuthor" xml:space="preserve">
+    <value>— CHARLEY SHAMALY</value>
+  </data>
+  <data name="ReviewFiveContent" xml:space="preserve">
+    <value>Nick is one of those rare, detail and data oriented managers that has the wherewithal to think short term yet conceive and execute the vision to think and adapt in to the future. He is exceptionally effective at extracting value adds out of minutia to construct more streamlined processes. His managerial intelligence isn't limited to "hard science" so-to-speak. He has a deep and genuine concern for his people, their well-being and overall happiness whilst maintaining a fair atmosphere. He can't be recommended enough.</value>
+  </data>
+  <data name="ReviewFourAuthor" xml:space="preserve">
+    <value>— MICHELLE KLEEM</value>
+  </data>
+  <data name="ReviewFourContent" xml:space="preserve">
+    <value>Nick is one of those rare managers who also naturally serves as an inspiring mentor for the whole staff. He is dedicated to his work. With a background in computer science and over 2 years worth of experience as an researcher and adjudications team lead, Nick exhibits strong interpersonal skills and aptitude for accuracy. Nick is the go-to person for conflict resolution and problem solving; when issues arise in the team, he does his best to come up with a successful conclusion. Nick always has respect for others and is very approachable.</value>
+  </data>
+  <data name="ReviewOneAuthor" xml:space="preserve">
+    <value>— ALEXANDRA WELCH</value>
+  </data>
+  <data name="ReviewOneContent" xml:space="preserve">
+    <value>Nick was the best manager/team lead I have ever worked for. He was always willing to listen to my concerns with protocols/tasks and work toward a solution that worked for everyone. Every issue that came up was addressed quickly and professionally no matter what it was. He has creative problem solving skills that set him apart from other managers. I cannot stress enough how great it was working with Nick; he was the reason I stayed with the company for as long as I did.</value>
+  </data>
+  <data name="ReviewThreeAuthor" xml:space="preserve">
+    <value>— SHRUTI PANDEY</value>
+  </data>
+  <data name="ReviewThreeContent" xml:space="preserve">
+    <value>Nick is a great team player, he hit the ground running as he joined our team and has been a great addition. He is well-focused, patient, and gives a 100% to any task assigned to him. There were many occasions where his exceptional problem-solving skills and technical sharpness helped immensely. He is always prompt in responding to any situation and proactive in helping out the team mates. Nick's ability to perform well under pressure, and his willingness to learn and collaborate on any tasks that come his way make him a great asset to the team.</value>
+  </data>
+  <data name="ReviewTwoAuthor" xml:space="preserve">
+    <value>— JASON LONSBERRY</value>
+  </data>
+  <data name="ReviewTwoContent" xml:space="preserve">
+    <value>Nick is great to work with. Not only is he a nice guy but he's intelligent and hard-working. He picks up new concepts quickly. He's inquisitive and self-motivated. I knew if Nick was given a problem, it would be thoroughly researched and the solution carefully considered. He was an integral part of our team.</value>
+  </data>
+</root>

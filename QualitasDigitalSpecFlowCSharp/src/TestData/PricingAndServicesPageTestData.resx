@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalTestCoverageBodyText" xml:space="preserve">
+    <value>$100/hour- We work within your existing workflow to add additional test coverage.  This is a simple no frills option that adds immediate value to your organization.</value>
+  </data>
+  <data name="AdditionalTestCoverageTitle" xml:space="preserve">
+    <value>Additional Test Coverage</value>
+  </data>
+  <data name="CoachingBodyText" xml:space="preserve">
+    <value>$100/hour- We meet with your team and identify areas of growth, pain points, and blockers.  We then work with your team to resolve these issues now and in the future.</value>
+  </data>
+  <data name="CoachingTitle" xml:space="preserve">
+    <value>Coaching</value>
+  </data>
+  <data name="DashboardsDisclaimerBodyText" xml:space="preserve">
+    <value>*The SaaS Dashboard product is not publicly available at this time.  Keep an eye out for the Beta announcement!</value>
+  </data>
+  <data name="DashboardsOnPremiseBodyText" xml:space="preserve">
+    <value>On Premise: $100/hour- We create a custom tailored dashboard that shows the business value and status of your tests.  Depending on the framework and language, we also extend your ‘out of the box’ solutions with additional functionality and value.</value>
+  </data>
+  <data name="DashboardsSaasBodyText" xml:space="preserve">
+    <value>Software as a Service*: variable cost per user- Sign up for our SaaS Dashboard and enjoy an easy setup and always on functionality at a low cost to you.</value>
+  </data>
+  <data name="DashboardsTitle" xml:space="preserve">
+    <value>Dashboards</value>
+  </data>
+  <data name="FrameworkUpdatesCustomTailoredBodyText" xml:space="preserve">
+    <value>Custom Tailored: $150/hour- We create a framework that meets your needs.  This often includes an extensive amount of system specific logging, as well as extensions and documentation that make the framework easy for your engineers to use compared with other frameworks in the industry.</value>
+  </data>
+  <data name="FrameworkUpdatesTitle" xml:space="preserve">
+    <value>Framework Updates</value>
+  </data>
+  <data name="FrameworkUpdatesUpgradesBodyText" xml:space="preserve">
+    <value>Upgrades/Replacement: $100/hour- Covers all upgrades and updates to existing frameworks such as updating automation to use functionality from a new version or replacing one framework with a different one.  We even perform language changes within existing frameworks such as moving automation from Selenium Java to Selenium C# without the loss of existing tests.</value>
+  </data>
+  <data name="OurCommitmentLink" xml:space="preserve">
+    <value>https://www.qualitasdigital.com/our-commitment</value>
+  </data>
+  <data name="PricingAndServicesSubtitle" xml:space="preserve">
+    <value>Software Quality Automation services starting at $100/hour.</value>
+  </data>
+  <data name="PricingAndServicesTitle" xml:space="preserve">
+    <value>Pricing + Services</value>
+  </data>
+  <data name="ProcessAutomationBodyText" xml:space="preserve">
+    <value>$125/hour- We analyze your workflows and processes to identify ‘time wasters’ and repetitive tasks that make good candidates for automation.  We document and automate those processes so that your engineers can focus on the things that matter most to you.</value>
+  </data>
+  <data name="ProcessAutomationTitle" xml:space="preserve">
+    <value>Process Automation</value>
+  </data>
+  <data name="RoadmapsBodyText" xml:space="preserve">
+    <value>$125/hour- We create a 1,3,5 year plan that accomplishes your business objectives.  These plans include multiple versions for Management, and Engineers.  Combined with our other services, this is an effective way to realize your business objectives and communicate them throughout the company.</value>
+  </data>
+  <data name="RoadmapsTitle" xml:space="preserve">
+    <value>Road maps</value>
+  </data>
+  <data name="TechnicalCoFounderBodyText" xml:space="preserve">
+    <value>$250/hour- Our founder helps you create your own startup.  This includes policies and procedures for attracting and hiring talent, the selection and use of initial automation frameworks that match your desired tech stack, training for your senior executives, and quality standards that allow you to maintain a competitive advantage.</value>
+  </data>
+  <data name="TechnicalCoFounderTitle" xml:space="preserve">
+    <value>Technical Co-Founder</value>
+  </data>
+  <data name="TrainingBodyText" xml:space="preserve">
+    <value>$100/hour- Personalized training that meets your needs.  Whether you need one on one training, group based training, or a combination of the two, we offer hands on labs and classroom style instruction that brings your engineers up to speed quickly.</value>
+  </data>
+  <data name="TrainingTitle" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="TrustedAdvisorBodyText" xml:space="preserve">
+    <value>$200/hour- Our Founder works alongside your senior executives to scale your software quality operations.  This covers how to attract talent, the technical interview process, and managing your teams.</value>
+  </data>
+  <data name="TrustedAdvisorTitle" xml:space="preserve">
+    <value>Trusted Advisor</value>
+  </data>
+</root>
